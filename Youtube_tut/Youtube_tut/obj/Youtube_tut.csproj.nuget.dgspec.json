@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vokan\\source\\repos\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj": {}
+    "C:\\Users\\vokan\\source\\repos\\COSMOS-tutorial\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vokan\\source\\repos\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj": {
+    "C:\\Users\\vokan\\source\\repos\\COSMOS-tutorial\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vokan\\source\\repos\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj",
+        "projectUniqueName": "C:\\Users\\vokan\\source\\repos\\COSMOS-tutorial\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj",
         "projectName": "Youtube_tut",
-        "projectPath": "C:\\Users\\vokan\\source\\repos\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj",
+        "projectPath": "C:\\Users\\vokan\\source\\repos\\COSMOS-tutorial\\Youtube_tut\\Youtube_tut\\Youtube_tut.csproj",
         "packagesPath": "C:\\Users\\vokan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vokan\\source\\repos\\Youtube_tut\\Youtube_tut\\obj\\",
+        "outputPath": "C:\\Users\\vokan\\source\\repos\\COSMOS-tutorial\\Youtube_tut\\Youtube_tut\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vokan\\AppData\\Roaming\\NuGet\\NuGet.Config",

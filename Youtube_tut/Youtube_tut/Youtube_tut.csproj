@@ -20,15 +20,22 @@
         <DebugEnabled>False</DebugEnabled>
         <CompileVBEMultiboot>False</CompileVBEMultiboot>
         <VBEResolution>1920x1080x32</VBEResolution>
+        <CompressionType>Gzip</CompressionType>
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Calculator\Calculator.bmp" />
+      <None Remove="canvas.bmp" />
       <None Remove="cursor.bmp" />
+      <None Remove="Menu.bmp" />
       <None Remove="test.bmp" />
     </ItemGroup>
 
     <ItemGroup>
+      <EmbeddedResource Include="Calculator\Calculator.bmp" />
+      <EmbeddedResource Include="canvas.bmp" />
       <EmbeddedResource Include="cursor.bmp" />
+      <EmbeddedResource Include="Menu.bmp" />
       <EmbeddedResource Include="test.bmp" />
     </ItemGroup>
 

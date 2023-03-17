@@ -8,6 +8,8 @@ using IL2CPU.API.Attribs;
 using Cosmos.System;
 using Cosmos.Core;
 using Cosmos.Core.Memory;
+using SoundTest;
+using SoundTest.Applications.Task_Scheduler;
 
 namespace Youtube_tut
 {
@@ -20,7 +22,7 @@ namespace Youtube_tut
         [ManifestResourceStream(ResourceName = "Youtube_tut.cursor.bmp")] public static byte[] cursor;
         public static Bitmap curs = new Bitmap(cursor);
         //defines the cursor image
-        //Important: If yo want to draw a bitmap make sure that it is in 32bpp
+        //Important: If you want to draw a bitmap make sure that it is in 32bpp
         protected override void BeforeRun()
         {
             //Setting the max cursor x and y position
@@ -38,10 +40,14 @@ namespace Youtube_tut
 
         protected override void Run()
         {
-            canvas.DrawFilledRectangle(new Pen(Color.White), 0, 0, 1920, 1080);//In newer COSMOS versions replace new Pen(Color.color) with Color.color
+            //ImprovedVBE.DrawFilledRectangle(16777215, 0, 0, 1920, 1080);//In newer COSMOS versions replace new Pen(Color.color) with Color.color
+            ImprovedVBE.clear(16777215);
             //Calling the bitmap
             //Now lets make the bitmap moveable
-            canvas.DrawImage(bmp, bmp_x, bmp_y);
+            /*
+            ImprovedVBE.DrawImageAlpha(bmp, bmp_x, bmp_y);
+
+            //We can tage out our last "application"
             if (MouseManager.MouseState == MouseState.Left)
             {
                 if (MouseManager.X > bmp_x && MouseManager.X < bmp.Width + bmp_x)
@@ -61,12 +67,22 @@ namespace Youtube_tut
                     movable = false;
                 }
             }
+            */
+
+            //But first, we have to init the Task manager
+            Task_Manager.Task_manager();
+
+            //Now lets make a menu
+            Menu.Menu_mgr();
+            //And that's it. Making a button is the same, but you don't have to do the same thing backwords
 
             //Drawing the cursor
-            canvas.DrawImageAlpha(curs, (int)MouseManager.X, (int)MouseManager.Y); //DrawImageAlpha is drwaing transparent bitmaps
+            ImprovedVBE.DrawImageAlpha(curs, (int)MouseManager.X, (int)MouseManager.Y); //DrawImageAlpha is drwaing transparent bitmaps
             //Calling the memory managger
             Heap.Collect();
             //This will help running your OS much longer
+
+            ImprovedVBE.display(canvas);
 
             canvas.Display(); //Always call canvas.Display() to draw to the screen
         }

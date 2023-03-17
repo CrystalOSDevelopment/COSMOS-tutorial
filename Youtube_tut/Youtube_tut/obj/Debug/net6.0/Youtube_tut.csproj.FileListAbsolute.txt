@@ -10,3 +10,15 @@ C:\Users\vokan\source\repos\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut
 C:\Users\vokan\source\repos\Youtube_tut\Youtube_tut\obj\Debug\net6.0\refint\Youtube_tut.dll
 C:\Users\vokan\source\repos\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.pdb
 C:\Users\vokan\source\repos\Youtube_tut\Youtube_tut\obj\Debug\net6.0\ref\Youtube_tut.dll
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\bin\Debug\net6.0\Youtube_tut.deps.json
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\bin\Debug\net6.0\Youtube_tut.dll
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\bin\Debug\net6.0\Youtube_tut.pdb
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.csproj.AssemblyReference.cache
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.AssemblyInfoInputs.cache
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.AssemblyInfo.cs
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.csproj.CoreCompileInputs.cache
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.dll
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\refint\Youtube_tut.dll
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\Youtube_tut.pdb
+C:\Users\vokan\source\repos\COSMOS-tutorial\Youtube_tut\Youtube_tut\obj\Debug\net6.0\ref\Youtube_tut.dll
